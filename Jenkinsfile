@@ -4,6 +4,7 @@ pipeline {
     stage("build") {
       steps {
           echo 'building the applictaion...'
+          echo 'triggered by polling'
       }
     }
     stage("test") {
